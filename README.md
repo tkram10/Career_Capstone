@@ -14,7 +14,9 @@ Our analysis begins with data cleaning, where we preprocess and prepare the data
 The objective is to identify the best-performing model based on Kaggle scores. We start with Logistic regression and then explore penalized regression, specifically LASSO, due to collinearity issues. Additionally, we examine Random Forest, XGBoost, and Light XGBoost to assess their effectiveness in predicting credit default risk.
 
 #### image-1: Results of all modeling techniques that we have used in this project.
+
 <img width="475" alt="Screen Shot 2023-12-06 at 12 00 12 AM" src="https://github.com/tkram10/Career_Capstone/assets/72302122/1a8a6e85-03dd-4be4-b94f-bc2a294aecca">
+
 Here, we can see from the results table the light Gradient boost has a high Kaggle score of 0.72387 and a high AUC score of 0.6860.
 
 We first started with the logistic regression model and got around a 0.67 Kaggle score. We understood that it has multicollinearity by examining the VIF scores and used the penalized regression model LASSO to fit the data, and the Kaggle score improved to 0.69.
