@@ -40,15 +40,14 @@ Multicollinearity can adversely affect regression models by inflating standard e
 4. The customer's age affects the repayment rate, as younger people are more likely to default.
 
  #### Difficulties that your group encountered along the way.
+ Our main difficulties during the project were performing the under-sampling technique to balance the target variable and hyper-parameter tuning.Hyper paramter tuning helped us in 
+ getting the accurate values of all the modeling techniques.
 
  #### What you learned in the project.
- 1. Addressing class imbalance is critical, especially in this project. To Deal with class imbalance, we performed under-sampling technique to.
+ 1. Addressing class imbalance is critical, especially in this project. To Deal with class imbalance, we performed under-sampling technique to balance the target variable.
  2. To deal with multicollinearity, performed VIF calculations and penalized regression techniques like LASSO which can effectively improves the performance of a model.
- 3. Data Pre-processing is the biggest challenge for any project.We used one hot encoder to encode the object variables into dummies so that the modeling can also be done on the factor 
-    variables.
-
-
-
+ 3. Data Pre-processing is the biggest challenge for any project. We used one hot encoder to encode the object variables into dummies so that the modeling can also be done on the 
+    factor variables.
 
 ### Modelling
 
