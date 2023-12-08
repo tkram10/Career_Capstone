@@ -39,14 +39,13 @@ Multicollinearity can adversely affect regression models by inflating standard e
 3. The annual credit amount has an effect on the default rate.
 4. The customer's age affects the repayment rate, as younger people are more likely to default.
 
- #### Difficulties that your group encountered along the way.
- Our main difficulties during the project were performing the under-sampling technique to balance the target variable and hyper-parameter tuning.Hyper paramter tuning helped us in 
- getting the accurate values of all the modeling techniques.
+ #### Difficulties that our group encountered along the way.
+ Our main difficulties during the project were performing the under-sampling technique to balance the target variable and hyper-parameter tuning. Hyper paramter tuning helped us get the modeling techniques' accurate values.
 
- #### What you learned in the project.
- 1. Addressing class imbalance is critical, especially in this project. To Deal with class imbalance, we performed under-sampling technique to balance the target variable.
- 2. To deal with multicollinearity, performed VIF calculations and penalized regression techniques like LASSO which can effectively improves the performance of a model.
- 3. Data Pre-processing is the biggest challenge for any project. We used one hot encoder to encode the object variables into dummies so that the modeling can also be done on the 
+ #### What I learned in the project.
+ 1. Addressing class imbalance is critical, especially in this project. To Deal with class imbalance, we performed an under-sampling technique to balance the target variable.
+ 2. To deal with multicollinearity, VIF calculations and penalized regression techniques like LASSO were performed, which can effectively improve the performance of a model.
+ 3. Data Pre-processing is the biggest challenge for any project. We used one hot encoder to encode the object variables into dummies so that the modeling could also be done on the 
     factor variables.
 
 ### Modelling
@@ -63,7 +62,7 @@ We first started with the logistic regression model and got around a 0.67 Kaggle
 
 We further examined the data modeling with random forest, did hyperparameter tuning, and got Kaggle around 0.66, indicating the need for further models.
 
-So, we used the XG Boost model with hyperparameter tuning and secured the 0.71 Kaggle score. Then, we examined the light Gradient boosting, which is fast and accurate with a Kaggle score of 0.723.
+So, we used the XG Boost model with hyperparameter tuning and secured the 0.71 Kaggle score. Then, we examined the light Gradient boosting, which is fast and accurate, with a Kaggle score of 0.723.
 
 To conclude, Light Gradient Boost is a good model fit for the given cleaned dataset with a Kaggle score of 0.72387.
 
